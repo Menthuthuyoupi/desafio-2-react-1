@@ -99,9 +99,9 @@ button:focus-visible {
 }
 
 .error{
-  margin: 0;
+  margin: 3px 0px;
   padding: 0;
-  color:red;
+  color:brown;
   font-size: 16px;
 }
 

@@ -13,15 +13,18 @@ import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
 const Registro = () => {
   return (
     <>  
-        <div className='mb-4'>
-            <h1 className='mb-4'>Crea una cuenta</h1>
-            <Socialbutton logo={faLinkedin}/>
-            <Socialbutton logo={faFacebook}/>
-            <Socialbutton logo={faGithub}/>
-            <p className='mt-3'>o usa tu mail para registrarse</p>  
-        </div>
+        <div className='bg-secondary bg-gradient p-5'>
+            <div className='mb-4'>
+                <h1 className='mb-4'>Crea una cuenta</h1>
+                <Socialbutton logo={faLinkedin}/>
+                <Socialbutton logo={faFacebook}/>
+                <Socialbutton logo={faGithub}/>
+                <p className='mt-3'>o usa tu mail para registrarse</p>  
+            </div>
         
-        <Formulario/>
+            <Formulario/>
+        </div>
+
     </>
   )
 }
